@@ -108,7 +108,7 @@ def saplogin(t_code):
             return
 
         session.findById("wnd[0]/usr/txtRSYST-BNAME").text = "10299976"
-        session.findById("wnd[0]/usr/pwdRSYST-BCODE").text = "Vo2195pr@9112"
+        session.findById("wnd[0]/usr/pwdRSYST-BCODE").text = "password"
         session.findById("wnd[0]").sendVKey(0)
         session.findById("wnd[0]").maximize
         
